@@ -31,4 +31,4 @@ data=$(cat << EOM
 EOM
 )
 
-curl -H 'Content-Type: application/json' -d "{'text': '$data'}" https://ols814.webhook.office.com/webhookb2/b4db8132-5470-4a62-b55f-0a8c3b23b29a@df34c379-284d-4cfb-a68c-c9b22adbc90c/IncomingWebhook/55b3f8acc36544c49ba0a103fc07d59b/5b168bd2-0720-4067-a287-dcf536fff8d3
+curl -H 'Content-Type: application/json' -d "{'text': '$data'}" https://ols814.webhook.office.com/webhookb2/b4db8132-5470-4a62-b55f-0a8c3b23b29a@df34c379-284d-4cfb-a68c-c9b22adbc90c/IncomingWebhook/6e38ce337c864dfc9e8a9de4cd36f632/5b168bd2-0720-4067-a287-dcf536fff8d3
