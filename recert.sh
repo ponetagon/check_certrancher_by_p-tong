@@ -25,8 +25,8 @@ echo expired date After: $after
 echo ""
 ##### alert ms team #####
 data=$(cat << EOM
-<b>Customer</b>: <b><font color="blue">$customer</font></b> \n 
-<b>expired date Before</b>: $before \n 
+<b>Customer</b>: <b><font color="blue">$customer</font></b>
+<b>expired date Before</b>: $before
 <b>expired date After</b>: $after
 EOM
 )
